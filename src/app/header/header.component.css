@@ -1,0 +1,7 @@
+.navbar-collapse .nav-item.show .dropdown-menu {
+  display: block;
+}
+
+.navbar-toggler.show+.navbar-collapse {
+  display: block;
+}

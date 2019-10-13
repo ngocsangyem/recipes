@@ -1,0 +1,29 @@
+.list-group-item {
+  display: flex;
+  align-content: center;
+  height: 100px;
+  overflow: hidden;
+  color: #333333;
+  text-decoration: none;
+  transition: background-color .3s ease-in-out;
+}
+
+.list-group-item .description,
+.list-group-item .img {
+  width: 50%;
+}
+
+.list-group-item .img img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.list-group-item:hover,
+.list-group-item:focus {
+  background-color: #f5f2f2;
+}
+
+.list-group-item.active {
+  background-color: #f5f2f2;
+  border-color: rgba(0, 0, 0, .125)
+}
